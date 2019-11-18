@@ -17,6 +17,7 @@ namespace MySql.Web
         {
 
         }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             //modelBuilder.Entity<>
