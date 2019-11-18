@@ -3,4 +3,4 @@ WORKDIR /app
 COPY . .
 VOLUME ["/app/wwwroot"]
 VOLUME ["/app/App_Data"]
-ENTRYPOINT ["dotnet", "AdAlliance.Web.Host.dll"]
+ENTRYPOINT ["dotnet", "MySql.Web.dll"]
