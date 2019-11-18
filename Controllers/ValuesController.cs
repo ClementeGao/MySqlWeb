@@ -44,7 +44,6 @@ namespace MySql.Web.Controllers
             return name;
 
         }
-
         // PUT api/values/5
         [HttpPut("{id}")]
         public void Put(int id, [FromHeader] string value)
